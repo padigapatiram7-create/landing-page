@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <rect width="900" height="600" rx="40" fill="#163d2d" />
+  <rect x="60" y="80" width="780" height="440" rx="30" fill="#19513a" />
+  <path d="M220 180c140 140 340 140 480 0" fill="none" stroke="#8ff5c8" stroke-width="22" stroke-linecap="round" />
+  <text x="50%" y="54%" text-anchor="middle" fill="#d6f8d4" font-size="48" font-family="Arial, sans-serif">Re-Treatment</text>
+</svg>

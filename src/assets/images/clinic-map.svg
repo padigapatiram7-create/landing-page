@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" rx="50" fill="#142a23" />
+  <circle cx="270" cy="220" r="50" fill="#24e68f" />
+  <circle cx="600" cy="300" r="50" fill="#23d464" />
+  <circle cx="920" cy="180" r="50" fill="#8afac6" />
+  <text x="50%" y="90%" text-anchor="middle" fill="#bdedc3" font-size="60" font-family="Arial, sans-serif">Clinic Map</text>
+</svg>

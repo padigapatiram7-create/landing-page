@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" rx="40" fill="#0b1d19" />
+  <circle cx="600" cy="420" r="160" fill="#17382d" />
+  <rect x="320" y="620" width="560" height="620" rx="60" fill="#1f4c39" />
+  <path d="M360 740c80 40 200 40 280 0" fill="none" stroke="#6af08d" stroke-width="26" stroke-linecap="round" />
+  <text x="50%" y="92%" text-anchor="middle" fill="#a8d8b0" font-size="72" font-family="Arial, sans-serif">Hero Image</text>
+</svg>

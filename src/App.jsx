@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
 // Import images from assets folder
-const RCT_STANDARD = new URL('./assets/images/rct-standard.jpg', import.meta.url).href;
-const RCT_LASER = new URL('./assets/images/rct-laser.jpg', import.meta.url).href;
-const RCT_RETREAT = new URL('./assets/images/rct-retreat.jpg', import.meta.url).href;
-const HERO_IMAGE = new URL('./assets/images/hero-dentist.jpg', import.meta.url).href;
-const VIDEO_THUMB = new URL('./assets/images/video-equipment.jpg', import.meta.url).href;
-const MAP_IMAGE = new URL('./assets/images/clinic-map.jpg', import.meta.url).href;
+const RCT_STANDARD = new URL('./assets/images/rct-standard.svg', import.meta.url).href;
+const RCT_LASER = new URL('./assets/images/rct-laser.svg', import.meta.url).href;
+const RCT_RETREAT = new URL('./assets/images/rct-retreat.svg', import.meta.url).href;
+const HERO_IMAGE = new URL('./assets/images/hero-dentist.svg', import.meta.url).href;
+const VIDEO_THUMB = new URL('./assets/images/video-equipment.svg', import.meta.url).href;
+const MAP_IMAGE = new URL('./assets/images/clinic-map.svg', import.meta.url).href;
 
 const services = [
   {

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <rect width="900" height="600" rx="40" fill="#17382d" />
+  <rect x="60" y="80" width="780" height="440" rx="30" fill="#1b4e38" />
+  <text x="50%" y="50%" text-anchor="middle" fill="#9fedb5" font-size="52" font-family="Arial, sans-serif">Standard RCT</text>
+</svg>

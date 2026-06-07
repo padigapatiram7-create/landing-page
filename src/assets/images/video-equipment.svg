@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" rx="50" fill="#0c241c" />
+  <rect x="130" y="120" width="940" height="620" rx="40" fill="#0d3b29" />
+  <circle cx="600" cy="420" r="90" fill="#41ffaf" />
+  <text x="50%" y="84%" text-anchor="middle" fill="#b8f0d6" font-size="56" font-family="Arial, sans-serif">Equipment</text>
+</svg>

@@ -1,22 +1,30 @@
 import { useState } from 'react';
 
+// Import images from assets folder
+const RCT_STANDARD = new URL('./assets/images/rct-standard.jpg', import.meta.url).href;
+const RCT_LASER = new URL('./assets/images/rct-laser.jpg', import.meta.url).href;
+const RCT_RETREAT = new URL('./assets/images/rct-retreat.jpg', import.meta.url).href;
+const HERO_IMAGE = new URL('./assets/images/hero-dentist.jpg', import.meta.url).href;
+const VIDEO_THUMB = new URL('./assets/images/video-equipment.jpg', import.meta.url).href;
+const MAP_IMAGE = new URL('./assets/images/clinic-map.jpg', import.meta.url).href;
+
 const services = [
   {
     title: 'Standard RCT',
     description: 'Effective treatment for infected pulp using traditional, proven methods ensuring long-term tooth survival.',
-    image: 'https://images.unsplash.com/photo-1588776814546-1f6a84e0b8c2?auto=format&fit=crop&w=900&q=80',
+    image: RCT_STANDARD,
     icon: '🦷',
   },
   {
     title: 'Laser RCT',
     description: 'Advanced precision with laser technology designed to reduce bacteria and accelerate healing time.',
-    image: 'https://images.unsplash.com/photo-1588776814538-5b154d25e9cc?auto=format&fit=crop&w=900&q=80',
+    image: RCT_LASER,
     icon: '⚡',
   },
   {
     title: 'Re-Treatment RCT',
     description: 'Expert care for previously treated teeth that have not healed properly or have developed new issues.',
-    image: 'https://images.unsplash.com/photo-1556228724-4c33f44c4d1c?auto=format&fit=crop&w=900&q=80',
+    image: RCT_RETREAT,
     icon: '🔄',
   },
 ];
@@ -124,7 +132,7 @@ function App() {
           <div className="hero-visual">
             <div className="hero-card" aria-label="Dentist at clinic">
               <img
-                src="https://images.unsplash.com/photo-1588776814546-1f6a84e0b8c2?auto=format&fit=crop&w=900&q=80"
+                src={HERO_IMAGE}
                 alt="Dentist holding dental tools"
               />
               <div className="hero-badge">
@@ -187,7 +195,7 @@ function App() {
         <section className="section info-split">
           <div className="info-media" aria-label="Dental imaging technology">
             <div className="video-card">
-              <div className="video-thumb" />
+              <div className="video-thumb" style={{ backgroundImage: `url(${VIDEO_THUMB})` }} />
               <button className="video-play" aria-label="Play video">▶</button>
             </div>
             <div className="info-stats">
@@ -231,7 +239,7 @@ function App() {
                 <li>Clove Dental - Bandra West <span>Mumbai, 12 km away</span></li>
               </ul>
             </div>
-            <div className="locator-map" aria-label="Clinic map location"></div>
+            <div className="locator-map" style={{ backgroundImage: `url(${MAP_IMAGE})` }} aria-label="Clinic map location"></div>
           </div>
         </section>
 
